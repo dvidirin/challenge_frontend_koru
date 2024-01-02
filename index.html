@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Archaeological Adventures</title>
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- normalize css -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="container flex">
+        <a href="#" class="navbar-brand"
+          >Archaeological<span>Adventures</span></a
+        >
+
+        <div class="navbar-collapse">
+          <button type="button" class="navbar-toggler-close">
+            <i class="fas fa-times"></i>
+          </button>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#" class="nav-link">home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">game</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">characters</a>
+              <span class="nav-item-dropdown">
+                <i class="fas fa-chevron-down"></i>
+              </span>
+              <ul class="nav-item-dropdown-content">
+                <li><a href="#">David</a></li>
+                <li><a href="#">Maya</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">enemies</a>
+              <span class="nav-item-dropdown">
+                <i class="fas fa-chevron-down"></i>
+              </span>
+              <ul class="nav-item-dropdown-content">
+                <li><a href="#">Pharaoh</a></li>
+                <li><a href="#">Mummy</a></li>
+                <li><a href="#">Zombie</a></li>
+                <li><a href="#">Ghost</a></li>
+                <li><a href="#">Skeleton</a></li>
+                <li><a href="#">Human</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">about us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav-icons-group">
+          <form class="search-form">
+            <div class="search-icon-group">
+              <input type="search" class="search-control" />
+              <button type="submit" class="search-icon">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
+          </form>
+          <button type="button" class="navbar-toggler-open">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- header -->
+    <header id="header">
+      <div class="container">
+        <div class="header-content">
+          <!-- carousel test -->
+          <!--
+        <div class="header-carousel">
+          <div class="carousel-container" id="img-carousel">
+            <img src="resources/images/banner-img-1.png">
+            <img src="resources/images/banner-img-2.png">
+            <img src="resources/images/banner-img-3.png">
+          </div>
+        </div>
+        -->
+          <!-- end of carousel test -->
+          <div class="header-item">
+            <img src="resources/images/banner-img-1.png" />
+            <div class="header-item-text">
+              <h2>STORY</h2>
+              <p class="text">
+                In the game "Archaeological Adventures: In Search of Lost
+                Relics," players meet Dr. David Mitchell, a renowned
+                archaeologist, and Maya, a passionate young archaeologist
+                dreaming of uncovering the secrets of the Lost Ruins. The story
+                unfolds in a world full of mysteries and ancient legends. David
+                receives a mysterious invitation for an archaeological
+                expedition leading to the "Valley of Eternal Secrets."
+              </p>
+            </div>
+          </div>
+
+          <div class="header-item">
+            <img src="resources/images/banner-img-2.png" />
+            <div class="header-item-text">
+              <p class="text">
+                Intrigued and determined, he invites his friend Maya. As players
+                explore this valley, they encounter stunning landscapes,
+                forgotten temples, and ancient artifacts, discovering an ancient
+                prophecy involving lost magical artifacts with incredible
+                powers. Yet, they aren't alone in their quest. A secret
+                organization, "The Guardians of the Relics," seeks these
+                artifacts for sinister purposes. David and Maya must confront
+                challenges, puzzles, and the Guardians to protect the relics.
+              </p>
+            </div>
+          </div>
+
+          <div class="header-item">
+            <img src="resources/images/banner-img-3.png" />
+            <div class="header-item-text">
+              <p class="text">
+                The story culminates in a thrilling revelation about the power
+                of the relics and their significance to the world, offering
+                players a final choice shaping the fate of the relics and the
+                adventure's outcome. The main story's conclusion allows for
+                future expansions and side quests, enabling continued
+                exploration and uncovering of archaeological secrets.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- main -->
+    <main>
+      <!-- news section -->
+      <section id="news">
+        <div class="title">
+          <div class="container">
+            <h2><i class="fas fa-users"></i> Main Characters</h2>
+          </div>
+        </div>
+
+        <div class="container">
+          <!-- news latest -->
+          <div class="news-latest">
+            <h3>Characters</h3>
+            <article>
+              <div class="item-img">
+                <img src="resources/images/david.png" />
+                <!--<span> <i class="fas fa-comment"></i> 10 </span>-->
+              </div>
+              <div class="item-text">
+                <a href="#" class="h1">
+                  <span class="category">david</span>Renowned archaeologist and
+                  historian.
+                </a>
+                <p class="text">
+                  He is a professor at the University of Oxford and the director
+                  of the university's Institute of Archaeology. His primary
+                  research interests include the ancient history of Greece and
+                  Rome, as well as the archaeology of Mesopotamia. Dr. Mitchell
+                  is a tall and slender man with graying hair and piercing blue
+                  eyes. He is a brilliant scholar deeply passionate about his
+                  work. Additionally, he excels as a teacher and communicator,
+                  with his books and articles widely read and critically
+                  acclaimed. Dr. Mitchell is a man of great integrity and
+                  ethics. He advocates for the preservation of cultural heritage
+                  and staunchly supports archaeological science. Furthermore, he
+                  possesses immense compassion and empathy, always ready to
+                  assist others.
+                </p>
+                <!--<div class="date">News | Latest | 11:00 AM</div>-->
+              </div>
+            </article>
+
+            <article>
+              <div class="item-img">
+                <img src="resources/images/maya.png" />
+                <!--<span> <i class="fas fa-comment"></i> 10 </span>-->
+              </div>
+              <div class="item-text">
+                <a href="#" class="h1">
+                  <span class="category">maya</span>Young and passionate
+                  archaeologist.
+                </a>
+                <p class="text">
+                  Maya is a determined woman with black hair and brown eyes,
+                  whose smile lights up a room. Driven by her passion for work,
+                  she's always seeking new discoveries. Maya was born in a small
+                  town in Brazil and has been fascinated by history and culture
+                  from a young age. She knew early on that she wanted to become
+                  an archaeologist. She studied archaeology at the University of
+                  São Paulo, graduating with honors. After completing her
+                  studies, Maya worked as a field archaeologist on various
+                  projects in Brazil and abroad. She participated in excavations
+                  at ancient archaeological sites, including temple ruins,
+                  cities, and villages. Maya is committed to making significant
+                  contributions to the field of archaeology. She believes that
+                  archaeology can help us better understand the past and build a
+                  brighter future.
+                </p>
+                <!--<div class="date">News | Latest | 11:00 AM</div>-->
+              </div>
+            </article>
+          </div>
+          <!-- end of news latest -->
+
+          <!-- news popular -->
+          <!--
+          <div class="news-popular">
+            <h3>Popular News</h3>
+            <div class="popular-list">
+              <article>
+                <div class="item-img">
+                  <img src="resources/images/farao.png" />
+                </div>
+                <div class="item-text">
+                  <a href="#" class="h1"
+                    ><span class="category">popular</span>Lorem ipsum dolor sit
+                    amet consectetur adipisicing elit.</a
+                  >
+                </div>
+              </article>
+
+              <article>
+                <div class="item-img">
+                  <img src="resources/images/mumia.png" />
+                </div>
+                <div class="item-text">
+                  <a href="#" class="h1"
+                    ><span class="category">popular</span>Lorem ipsum dolor sit
+                    amet consectetur adipisicing elit.</a
+                  >
+                </div>
+              </article>
+
+              <article>
+                <div class="item-img">
+                  <img src="resources/images/zumbi.png" />
+                </div>
+                <div class="item-text">
+                  <a href="#" class="h1"
+                    ><span class="category">popular</span>Lorem ipsum dolor sit
+                    amet consectetur adipisicing elit.</a
+                  >
+                </div>
+              </article>
+
+              <article>
+                <div class="item-img">
+                  <img src="resources/images/fantasma.png" />
+                </div>
+                <div class="item-text">
+                  <a href="#" class="h1"
+                    ><span class="category">popular</span>Lorem ipsum dolor sit
+                    amet consectetur adipisicing elit.</a
+                  >
+                </div>
+              </article>
+
+              <article>
+                <div class="item-img">
+                  <img src="resources/images/esqueleto.png" />
+                </div>
+                <div class="item-text">
+                  <a href="#" class="h1"
+                    ><span class="category">popular</span>Lorem ipsum dolor sit
+                    amet consectetur adipisicing elit.</a
+                  >
+                </div>
+              </article>
+
+              <article>
+                <div class="item-img">
+                  <img src="resources/images/humano.png" />
+                </div>
+                <div class="item-text">
+                  <a href="#" class="h1"
+                    ><span class="category">popular</span>Lorem ipsum dolor sit
+                    amet consectetur adipisicing elit.</a
+                  >
+                </div>
+              </article>
+            </div>
+          </div>
+          -->
+          <!-- end of news popular -->
+        </div>
+      </section>
+      <!-- end of news section -->
+
+      <!-- videos section -->
+      <section id="videos">
+        <div class="title">
+          <div class="container">
+            <h2><i class="fas fa-skull"></i> Enemies</h2>
+          </div>
+        </div>
+        <div class="container">
+          <article>
+            <div class="item-video">
+              <img src="resources/images/farao.png" />
+              <!--
+              <video controls poster="resources/videos/video-1-poster.webp">
+                <source src="resources/videos/video-1.mp4" />
+              </video>
+              -->
+            </div>
+            <div class="item-text">
+              <a href="#" class="h1"
+                ><span class="category">pharaoh</span>Lorem ipsum, dolor sit
+                amet.</a
+              >
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </article>
+
+          <article>
+            <div class="item-video">
+              <img src="resources/images/mumia.png" />
+              <!--
+              <video controls poster="resources/videos/video-1-poster.webp">
+                <source src="resources/videos/video-1.mp4" />
+              </video>
+              -->
+            </div>
+            <div class="item-text">
+              <a href="#" class="h1"
+                ><span class="category">mummy</span>Lorem ipsum, dolor sit
+                amet.</a
+              >
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </article>
+
+          <article>
+            <div class="item-video">
+              <img src="resources/images/zumbi.png" />
+              <!--
+              <video controls poster="resources/videos/video-1-poster.webp">
+                <source src="resources/videos/video-1.mp4" />
+              </video>
+              -->
+            </div>
+            <div class="item-text">
+              <a href="#" class="h1"
+                ><span class="category">zombie</span>Lorem ipsum, dolor sit
+                amet.</a
+              >
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit..
+              </p>
+            </div>
+          </article>
+
+          <article>
+            <div class="item-video">
+              <img src="resources/images/fantasma.png" />
+              <!--
+              <video controls poster="resources/videos/video-1-poster.webp">
+                <source src="resources/videos/video-1.mp4" />
+              </video>
+              -->
+            </div>
+            <div class="item-text">
+              <a href="#" class="h1"
+                ><span class="category">ghost</span>Lorem ipsum, dolor sit
+                amet.</a
+              >
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </article>
+
+          <article>
+            <div class="item-video">
+              <img src="resources/images/esqueleto.png" />
+              <!--
+              <video controls poster="resources/videos/video-1-poster.webp">
+                <source src="resources/videos/video-1.mp4" />
+              </video>
+              -->
+            </div>
+            <div class="item-text">
+              <a href="#" class="h1"
+                ><span class="category">skeleton</span>Lorem ipsum, dolor sit
+                amet.</a
+              >
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </article>
+
+          <article>
+            <div class="item-video">
+              <img src="resources/images/humano.png" />
+              <!--
+              <video controls poster="resources/videos/video-1-poster.webp">
+                <source src="resources/videos/video-1.mp4" />
+              </video>
+              -->
+            </div>
+            <div class="item-text">
+              <a href="#" class="h1"
+                ><span class="category">human</span>Lorem ipsum, dolor sit
+                amet.</a
+              >
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- end of videos section -->
+
+      <!-- promo section -->
+      <section id="promo" class="flex">
+        <div class="container">
+          <span>join the expedition</span>
+          <h2>Archaeological Adventures</h2>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            laboriosam dolorum incidunt quod voluptatum quas, provident aut
+            perspiciatis aliquam deserunt qui voluptates dolorem non
+            necessitatibus nulla labore inventore deleniti culpa?
+          </p>
+          <div class="btn-groups flex">
+            <a href="#"> <i class="fas fa-play"></i> watch trailer </a>
+            <a href="#"> <i class="fas fa-gamepad"></i> play free now </a>
+          </div>
+        </div>
+      </section>
+      <!-- end of promo section -->
+
+      <!-- reviews section -->
+      <section id="reviews">
+        <div class="title">
+          <div class="container">
+            <h2><i class="fas fa-puzzle-piece"></i> Phases</h2>
+          </div>
+        </div>
+        <div class="container">
+          <article>
+            <div class="item-img">
+              <img src="resources/images/car1.png" />
+              <!--<span> <i class="fas fa-star"></i> 10 </span>-->
+            </div>
+            <div class="item-text">
+              <a href="#" class="h1">
+                <span class="category">phase 1</span>Lorem ipsum, dolor sit
+                amet.
+              </a>
+              <p class="text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              </p>
+              <!--<div class="date">Reviews | Trending | 11:00 AM</div>-->
+            </div>
+          </article>
+
+          <article>
+            <div class="item-img">
+              <img src="resources/images/car2.png" />
+              <!--<span> <i class="fas fa-star"></i> 10 </span>-->
+            </div>
+            <div class="item-text">
+              <a href="#" class="h1">
+                <span class="category">phase 2</span>Lorem ipsum, dolor sit
+                amet.
+              </a>
+              <p class="text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              </p>
+              <!--<div class="date">Reviews | Trending | 11:00 AM</div>-->
+            </div>
+          </article>
+
+          <article>
+            <div class="item-img">
+              <img src="resources/images/car3.png" />
+              <!--<span> <i class="fas fa-star"></i> 10 </span>-->
+            </div>
+            <div class="item-text">
+              <a href="#" class="h1">
+                <span class="category">phase 3</span>Lorem ipsum, dolor sit
+                amet.
+              </a>
+              <p class="text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              </p>
+              <!--<div class="date">Reviews | Trending | 11:00 AM</div>-->
+            </div>
+          </article>
+
+          <article>
+            <div class="item-img">
+              <img src="resources/images/car4.png" />
+              <!--<span> <i class="fas fa-star"></i> 10 </span>-->
+            </div>
+            <div class="item-text">
+              <a href="#" class="h1">
+                <span class="category">phase 4</span>Lorem ipsum, dolor sit
+                amet.
+              </a>
+              <p class="text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              </p>
+              <!--<div class="date">Reviews | Trending | 11:00 AM</div>-->
+            </div>
+          </article>
+
+          <article>
+            <div class="item-img">
+              <img src="resources/images/car5.png" />
+              <!--<span> <i class="fas fa-star"></i> 10 </span>-->
+            </div>
+            <div class="item-text">
+              <a href="#" class="h1">
+                <span class="category">phase 5</span>Lorem ipsum, dolor sit
+                amet.
+              </a>
+              <p class="text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              </p>
+              <!--<div class="date">Reviews | Trending | 11:00 AM</div>-->
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- end of reviews section -->
+    </main>
+    <!-- end of main -->
+
+    <!-- footer -->
+    <footer id="footer">
+      <div class="container">
+        <div class="footer-links-1">
+          <h2>Join The Expedition:</h2>
+          <ul class="flex">
+            <li>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitch"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-links-2">
+          <ul class="flex">
+            <li>
+              <a href="#">About Us</a>
+            </li>
+            <li>
+              <a href="#">Advertise</a>
+            </li>
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="#">Terms of Use</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+            <!--
+            <li>
+              <a href="#">Review</a>
+            </li>
+            -->
+          </ul>
+        </div>
+
+        <p class="text">
+          &copy; <a href="#">TheExpedition</a>. All Rights Reserved
+        </p>
+      </div>
+    </footer>
+    <!-- end of footer -->
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
