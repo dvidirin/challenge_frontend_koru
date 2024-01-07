@@ -311,7 +311,7 @@ article{
 /* promo */
 #promo{
   min-height: 100vh;
-  margin-bottom: 2rem;
+  margin-bottom: 8rem;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url(../resources/images/banner-img-1.png) center/cover no-repeat;
   text-align: center;
   animation: backgroundChange 10s infinite;
@@ -364,6 +364,10 @@ article{
 }
 #promo .btn-groups a:hover{
   background-color: var(--chocolate-color);
+}
+
+#reviews .title{
+  margin-top: 8rem;
 }
 
 /* footer */
