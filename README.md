@@ -78,7 +78,7 @@ Utilizamos a psicologia das cores para criar uma atmosfera acolhedora e agradáv
 - Jogo das Relíquias Mágicas
 - Jogo dos Guardiões das Relíquias
 
-### [SITE](https://dvidirin.github.io/projeto_frontend/)
+### [SITE](https://dvidirin.github.io/challenge_frontend_koru/)
 
 ---
 
